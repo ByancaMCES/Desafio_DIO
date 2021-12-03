@@ -1,0 +1,142 @@
+*{
+
+       margin:0;
+
+       border:0;
+       padding:0;
+
+       }
+
+
+
+body{
+
+       font-family:verdana;
+
+       }
+
+
+
+main{
+       position:relative;
+       width:90%;
+       height:auto;
+       background-color:#EEEEE0;
+       margin:auto;
+       font-size:30px;
+       font-family:tahoma;
+       color:#fff;
+       text-align:center;
+}
+
+header{
+       position:relative;
+       width:100%;
+       height:100px;
+       background-color:#000;
+          
+       }
+
+header h1{
+       font-family:tahoma;
+       font-size:40px;
+       font-weight:normal;
+line-height:100px;
+       }
+
+nav{
+       position:relative;
+       width:100%;
+       height:35px;
+       background-color:#00008b;
+       color:#fff;
+       text-align:left; 
+       }
+
+
+#lateral{
+       position:relative;
+       width:20%;
+       height:450px;
+       background-color:#9f9f5f;
+       float:left;
+text-align:center;
+
+       }
+
+
+section{
+        position:relative;
+        width:60%;
+        height:450px;
+        margin:auto;
+        background-color:#ab82ff;
+        float:left;
+        text-align:center;
+
+        }
+
+section header{
+        width:95%;
+        height:40px;
+        background-color:#FFf;
+        color:#000;
+        margin-top: 40px;
+        margin:auto;
+        }
+
+div{
+        width:95%;
+        height:150px;
+        background-color:#bc8f8f;
+        text-align:justify;
+        margin:auto;
+        margin-top:10px;
+        text-align:center;
+        
+        }
+
+p{
+        width:95%;
+        height:90px;
+        background-color:#b0e2ff;
+        margin:auto;
+        margin-top:10px;
+        color:#000;
+        text-align:left;
+        font-size:15px;
+        }
+#cinza{
+       position:relative;
+       width:30%;
+       heigth:auto;
+       background-color:#4f4f4f;
+       color:#fff;
+       float:left;
+       margin:auto;
+       margin-top:10px;
+       margin-left:13px;
+
+}
+
+
+
+
+aside{
+       position:relative;
+       width:20%;
+       height:450px;
+       background-color:#d8bfd8;
+       float:left;
+}
+
+footer{
+       position:relative;
+       width:100%;
+       height:100px;
+       color:#fff;
+       text-align:center;
+       background-color:#000;
+       clear:left;
+
+}

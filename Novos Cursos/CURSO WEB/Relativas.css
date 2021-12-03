@@ -1,0 +1,42 @@
+#camada1{ 
+          position:relative;
+          width:170px;
+          height:200px;
+          background-color:#FF0;
+          border:5px solid #F00;
+          text-align:center;
+          font-size:10px;
+          float:left; /*float=encaixe*/
+}
+
+#camada2{ position:relative;
+          width:170px;
+          height:200px;
+          background-color:#0f0;
+          border:5px solid #060;
+          text-align:center;
+          font-size:10px;
+         float:left;
+         }
+
+#camada3{
+          position:relative;
+          width:170px;
+          height:200px;
+          background-color:#0ff;
+          border:5px solid #009;
+          text-align:center;
+          font-size:10px;
+          clear:left;
+          float:left;
+
+          
+}
+#fundo{ position:relative;
+         width:800px;
+         height:600px;
+         background-color:#ccc;
+         margin:auto; /*alinhamento centralizado*/
+}
+
+

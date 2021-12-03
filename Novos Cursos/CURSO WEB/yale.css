@@ -1,0 +1,73 @@
+*{
+border:0;
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+main{
+   width:auto;
+   height:auto;
+   background-color:#fff;
+   margin:auto;
+}
+header{
+     background-color:rgba(99,170,255,.2);
+     display:block;
+     padding:20px;
+     padding-left:50px;
+     font-family:Arial;
+     font-size:12px;
+
+}
+header a{ 
+     color: inherit;
+     font-family:Calisto MT;
+     font-size:15px;
+ }
+
+#cabecalho{
+        background-color:#666;
+        display:flex;
+        flex-direction:row;
+}
+#logo{
+       position: relative;
+       padding:50px;
+      }
+
+#logo img{
+         position: relative;
+         width: 100px;
+         height:50px;
+        backgound-color:#fff;
+}
+#primeiro a{
+           color:#f0a;
+}
+
+#segundo a{
+    padding:10px;
+}
+
+#area{
+       position:absolute;
+       top:300px;
+       left:50px;
+       border:1px solid;
+       width:300px;
+       height:300px;
+       z-index:1;
+      background-color:#fff;
+}
+
+#galeria{
+       position:absolute;
+       top:250px;
+       left:200px;
+       border:1px solid;
+       width:800px;
+       height:500px;
+       background-image:url(imagens/Yale_center.png);
+       background-size:100%;
+       background-repeat: round;
+}

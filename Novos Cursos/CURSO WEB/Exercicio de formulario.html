@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+           <title> Exercicio de Formulário </title>
+
+
+<meta charset="iso-8859-1" >
+<link rel="stylesheet" href="exercicio_form.css" type="text/css">
+
+</head>
+
+
+<body>
+
+ <form action=" " name="form"> 
+   <fieldset>   
+
+               <header> Dados do responsável </header>
+               <label> Nome </label>
+               <input type="text" name="nome" maxlength="10" size="20"> 
+               <input type="text" name="Sobrenome" maxlength="30" size="20" > 
+<br><br>
+                 <label> Telefone Fixo: </label>
+                 <input type="number" min="1" max="3"> -
+                 <input type="text" name="numero_Telefone" maxlength="30" size="20"> 
+<br><br>
+               <label> E-mail </label>
+               <input type="email" name="mail" maxlength="30" size="30"> 
+<br><br>
+               <label> Endereço </label>
+               <input type="text" name="Endereco" maxlength="10" size="20"> 
+<br><br>       <input type="text" name="Endereco(cont)" maxlength="10" size="20"> 
+<br><br>       <input type="text" name="Cidade" maxlength="10" size="20"> 
+               <input type="text" name="Estado/cidade" maxlength="10" size="20"> 
+<br><br>       <input type="text" name="CEP/Código Postal" maxlength="10" size="20">
+<br><br>
+         <header> Dados da Aniversariante </header>
+         <label> Nome da Aniversariante</label>
+               <input type="text" name="nome" maxlength="10" size="20"> 
+               <input type="text" name="Sobrenome" maxlength="30" 
+<br<br><br><br>
+                 <label> Data de Nasc. da Aniversariante </label>
+                 <input type="date"><input type="date"><input type="date"> 
+<br><br>
+             <header> Dados do Serviço </header>
+<br><br>
+             <label> Tipo de Serviço </label>
+<br><br>
+              <input type="radio" name="resp" value="aniversario"> Festa de aniversário
+              <input type="radio" name="resp" value="gestante"> Ensaio de Gestante
+              <input type="radio" name="resp" value="newborn"> Ensaio Newborn
+              <input type="radio" name="resp" value="baby"> Ensaio Baby
+              <input type="radio" name="resp" value="kids"> Ensaio Kids
+              <input type="radio" name="resp" value="teen"> Ensaio Teen
+              <input type="radio" name="resp" value="religioso"> Evento religioso (Batizado, 1ªEucaristia, etc...)
+              <input type="radio" name="resp" value="outros"> Outros
+<br><br>
+           <header> Forma de Pagamento </header>
+           <label> Pacote Escolhido </label>
+                    <select name="opcao">
+                    <option> Master </option>
+                    <option> Comum </option>
+                    <option> Básico </option>
+                 </select>
+<br><br>
+                <label> Forma de Pagamento </label>
+                    <select name="opcao">
+                    <option> Dinheiro </option>
+                    <option> Boleto </option>
+                    <option> Cartão débito </option>
+                    <option> Cartão crédito á vista </option>
+                    <option> Cartão crédito parcelado </option>
+                 </select>
+<br><br>
+               <label> Observações </label>
+            <textarea cols="100" rows="5" > </textarea>
+<br><br>
+                <input type="submit" value="Enviar" class="botao">
+
+</form>
+</fieldset>
+
+
+</body>
+
+</html>

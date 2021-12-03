@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio</title>
+</head>
+<body>
+    <h1>Pesquisa Estrangeiros</h1>
+    Onde você mora? <input type="text" name="pais" id="pais">
+    Qual seu País? <input type="text" name="nac" id="nac">
+    <input type="button" value="Verificar" onclick="calcular()">
+    <div id="res"></div>
+    <div id="res2"></div>
+    <script>
+  function calcular(){      
+  var teste = window.document.querySelector(`input#pais`)
+  var pais = (teste.value)
+  var res = window.document.querySelector('div#res')
+  res.innerHTML = `Vocé está morando em ${pais}`
+
+  var teste2 = window.document.querySelector(`input#nac`)
+  var nac = teste2.value
+  var res2 = window.document.querySelector('div#res2')
+
+  if(nac =='Brasil') 
+  {  res2.innerHTML +=(`Você é Brasileiro`)} 
+else {    
+    res2.innerHTML +=(`Você é Estrangeiro`)}
+  }
+    </script>
+</body>
+</html>

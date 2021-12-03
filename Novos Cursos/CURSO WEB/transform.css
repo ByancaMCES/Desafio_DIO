@@ -1,0 +1,120 @@
+*{
+          padding:0;
+          border:0;
+          margin:0;
+}
+main{ 
+          width:1000px;
+          height:auto;
+          padding:5px;
+
+}
+
+div{ 
+          position:relative;
+          width:200px;
+          height:150px;
+          border:1px solid #333;
+          float:left;
+         padding:7px;
+}
+
+img{
+          width:85%;
+}
+
+
+#foto1 img{
+      -webkit-transform:rotate(0deg);
+       transition:2s all;
+}
+#foto1 img:hover{
+      -webkit-transform:rotate(360deg);
+        transition:2s all;
+}
+
+#foto2 img{
+       -webkit-transform:rotateX(10deg);
+        transition:1s all;
+}
+#foto2 img:hover{
+       -webkit-transform:rotateX(70deg);
+       transition:1s all;
+}
+
+#foto3 img{
+        -webkit-transform:rotateY(0deg);
+        transition:2s all;
+
+}
+#foto3 img:hover{
+        -webkit-transform:rotateY(360deg);
+        transition:2s all;
+}
+
+#foto4 img{
+         -webkit-transform:translate(0px, 0px);
+        transition:2s all;
+
+}
+#foto4 img:hover{
+        -webkit-transform:translate(100px, 50px);
+        transition:2s all;
+
+}
+
+#foto5 img{
+        -webkit-transform:translateX(0px);
+        transition:2s all;
+}
+#foto5 img:hover{
+        -webkit-transform:translateX(200px);
+        transition:2s all;
+}
+#foto6 img{
+         transition:2s all;
+
+}
+#foto6 img:hover{
+        transform:translate(100px, 150px) rotate(180deg);
+        transition:2s all;
+
+}
+#foto7 img{
+        transform:scale(1.0);
+        transition:2s all;
+
+}
+#foto7 img:hover{
+        transform:scale(0.5);
+        transition:2s all;
+
+}
+#foto8 img{
+        transform:scale(1.0);
+        transition:2s all;
+
+}
+#foto8 img:hover{
+        transform:scale(2.5);
+        transition:2s all;
+
+}
+#foto9 img{
+         transition:2s all;
+
+}
+#foto9 img:hover{
+        transform:scale(0.5) rotate(-90deg);
+        transition:2s all;
+
+}
+#foto10 img{
+        transition:2s all;
+
+}
+#foto10 img:hover{
+        transform:scale(1.8) rotate(360deg) translate(20px, 50px);
+        transition:2s all;
+
+}

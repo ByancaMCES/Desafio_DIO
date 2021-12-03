@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Primeiros Passos com DOM</title>
+    <style>
+body {
+    background-color: rgb(31, 110, 163);
+    color: blanchedalmond;
+    font: normal 17pt Arial;
+
+}
+
+    </style>
+</head>
+<body>
+    <H1> Iniciando estudos com DOM</H1>
+    <p>Aqui vai o resultado </p>
+    <br>
+    <p>Aprendendo a usar o <strong> DOM</strong> em JavaScript </p>
+    <br>
+    <div id="msg">Clique em mim</div> 
+    <div class="msg">Clique em mim 2 </div>
+    <div id="msg2">Clique em mim 3</div>
+    <script>
+        var p1 = window.document.getElementsByTagName('p')[0]
+window.document.write('Esta escrito assim: '+ p1.innerText)
+window.document.write('Esta escrito assim: '+ p1.innerHTML)
+window.document.write('Olá Mundoooo!!')
+p1.style.color = 'blue'
+
+var d = window.document.getElementById('msg')
+d.style.background = 'green'   //Mudar a cor da background
+//d.innerText ='Estou Aguardando...'  //Mudar o texto da forma curta
+
+var e = window.document.querySelector('div.msg') //Para ID
+e.style.color = 'red'
+
+var f = window.document.querySelector('div#msg2') //Para class
+f.style.background = 'blue'
+
+window.document.getElementById('msg').innerText = 'Olá!' //Mudar o texto
+    </script>
+
+</body>
+</html>

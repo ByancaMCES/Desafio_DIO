@@ -1,0 +1,41 @@
+a{
+             background-image: url(imagens/3.jpg);
+             background-position:50% 50%;
+             background-repeat:no-repeat;
+             display:inline-block;
+             width:100px;
+             height:100px;
+             border-width:50px;
+             border-color:rgba(255,0,0,0.5); /*borda transparente*/
+             border-radius:100%; /*cantos arredondados*/
+             box-sizing:border-box; /*cria bordas pra dentro do componente */
+             transition:1s ease;
+}
+a:hover{
+             border-width:0;
+             border-color:rgba(0,0,0,0.5);
+}
+
+.efeito_um{ border-style:solid;}
+.efeito_dois{ border-style:dashed;}
+.efeito_tres{ border-style:dotted;}
+
+.efeito_quatro{ border:50px solid rgba(0,0,0,0.7);}
+.efeito_cinco{ border:50px dashed rgba(0,0,0,0.7);}
+.efeito_seis{ border:50px dotted rgba(0,0,0,0.7);}
+.efeito_sete{ border:50px double rgba(0,0,0,0.7);}
+
+.efeito_quatro:hover{ border:1px solid rgba(0,0,255,0.7);}
+.efeito_cinco:hover{ border:1px dashed rgba(0,0,255,0.7);}
+.efeito_seis:hover{ border:1px dotted rgba(0,0,255,0.7);}
+.efeito_sete:hover{ border:1px double rgba(0,0,255,0.7);}
+
+.efeito_oito, .efeito_nove, .efeito_dez {  border-radius:0;}
+
+.efeito_oito {border:50px solid rgba(0,0,0,0.7) }
+.efeito_nove {border:50px dashed rgba(0,0,0,0.7)}
+.efeito_dez {border:50px dotted rgba(0,0,0,0.7)}
+
+.efeito_oito:hover {border:1px solid rgba(100,0,0,0.7) }
+.efeito_nove:hover {border:1px dashed rgba(100,0,0,0.7)}
+.efeito_dez:hover {border:1px dotted rgba(100,0,0,0.7)}

@@ -1,0 +1,122 @@
+main{
+       position:relative;
+       width:90%;
+       height:auto;
+       background-color:#EEEEE0;
+       margin:auto;
+       }
+
+header{
+       position:relative;
+       width:100%;
+       height:100px;
+       background-color:#FFf0f5;
+       text-align:center;    
+       }
+
+header h1{
+       font-family:tahoma;
+       color:#005;
+       font-size:40px;
+       font-weight:normal; 
+       }
+
+nav{
+       position:relative;
+       width:100%;
+       height:30px;
+       background-color:#eea9b8;
+       }
+
+#lateral{
+       position:relative;
+       width:30%;
+       height:500px;
+       background-color:#8b658b;
+       float:left;
+       }
+
+#lateral nav{
+       position:relative;
+       width:90%;
+       height:200px;
+       background-color:#fff;
+       margin:auto;
+       margin-top:10px;
+       text-align:center;
+       }
+
+#lateral div{
+
+       position:relative;
+       width:90%;
+       height:180px;
+       background-color:#ff0;
+       margin:auto;
+       margin-top:5px;
+       }
+img{
+     width:100%;
+     height:100%;
+}
+
+#meio{
+       position:relative;
+       width:50%;
+       height:500px;
+       background-color:#af0;
+       float:left;
+
+}
+article{
+        position:relative;
+        width:95%;
+        height:480px;
+        margin:auto;
+        background-color:#fff8dc;
+        }
+
+article h4{
+        width:100%;
+        height:30px;
+        background-color:#FFf;
+        text-align:center;
+        }
+
+article p{
+        width:98%;
+        height:150px;
+        background-color:#FF0;
+        text-align:justify;
+        margin:auto;
+        }
+
+article div{
+        width:98%;
+        height:190px;
+        background-color:#F99;
+        margin:auto;
+        margin-top:10px;
+        }
+
+
+
+
+aside{
+       position:relative;
+       width:20%;
+       height:500px;
+       background-color:#fc0;
+       float:left;
+}
+
+footer{
+       position:relative;
+       width:100%;
+       height:100px;
+       color:#fff;
+       text-align:center;
+       background-color:#000;
+       clear:left;
+
+}

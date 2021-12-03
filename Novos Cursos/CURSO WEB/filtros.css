@@ -1,0 +1,99 @@
+div{
+             positive:relative;
+             width:200px;
+             height:150px;
+             float:left;
+             padding:5px;
+             border:solid 1px #ccc;
+             margin: 5px;
+}
+div img{
+             width:100%;
+             height:100%;
+
+} 
+div:hover {
+                box-shadow:-5px -5px 5px #adf;
+                cursor:pointer;
+
+}
+div img:hover{
+           filter:none;
+           transition:all 1s;
+}
+
+.blur{
+                 filter:blur(3px);
+}
+
+.grayscale{
+                 filter:grayscale(100%);
+}
+.sepia{
+                 filter:sepia(100%);
+
+}
+.saturate{
+                 filter:saturate(3);
+}
+
+.invert{
+                 filter:invert(100%);
+}
+
+.opacity{
+                 filter:opacity(30%);
+}
+
+.contrast{
+                 filter:contrast(500%);
+}
+
+.brightness{
+                 filter:brightness(0.25);
+}
+
+.hue-rotate{
+                 filter:hue-rotate(60deg);
+
+}
+#rollover{
+             positive:relative;
+             width:200px;
+             height:150px;
+             background-image:url(imagens/fundo.jpg);
+             background-repeat:round;
+             background-size:100%;  
+               
+                      
+}
+#rollover:hover{
+             background-image:url(imagens/paisagem.jpg);
+             background-size:100%; 
+}
+
+#botao{
+             positive:relative;
+             width:200px;
+             height:150px;
+             background-image:url(imagens/vermelho.jpeg);
+             background-repeat: round;
+             background-size:100%; 
+}
+#botao:hover{
+             background-image:url(imagens/verde.jpeg);
+             background-size:100%; 
+             transition:all 1s;
+}
+
+#botoes{
+             positive:relative;
+             width:200px;
+             height:90px;
+             background-image:url(imagens/botoes.jpeg);
+             background-repeat: no-repeat;
+             background-size:100%; 
+}
+#botoes:hover{
+             background-position:0px -143px;
+          }

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Formas de exibição usando o JavaScript </title>
+</head>
+<body>
+
+<h1> Formas de exibição usando o JavaScript </h1>
+<script type="text/javascript">
+/* Comentário de duas ou mais linhas*/     
+//document.write('Esse texto está sendo exibido na tela pelo JavaScript!'); 
+//document.write('<br>');//Esse comando exibe um texto na tela 
+//alert('Esse texto esta sendo exibido numa caixa de dialogo pelo JavaScript'); //Exibe texto numa caixa de dialógo
+//console.log('Esse texto esta sendo usado no Console de programador'); //Exibe msgs pelo Console de programador
+
+
+//alert('Teste com JavaScript');
+//alert('Teste com JavaScript 02');
+//alert('Teste com JavaScript 03');
+
+//document.write('Quero mais frases!');
+//document.write('<br>');document.write('Texto está sendo exibido na tela pelo JavaScript!');document.write//('<br>');document.write('JavaScript!');document.write('<br>');
+
+//var numero = 2;
+//document.write(numero);
+
+//document.write('<br>');
+
+//var texto = "Testando valor String";
+//document.write(texto);
+
+//document.write('<br>');
+
+//var nome = prompt("Olá, Usuário! Como você se chama?");
+//document.write("Bem-vindo, " +nome + " ! " ); //Concatenação
+
+//document.write('<br>');
+
+//var idade = prompt("Qual sua idade?");
+//var dias = idade *365;
+//document.write(`Você já viveu aproximadamente ${dias} dias !`); 
+
+//document.write('<br>');
+
+//var meses = idade *12;
+//document.write(`Você já viveu aproximadamente ${meses} meses !`); 
+//document.write('<br>');
+
+//var n1 = parseInt(prompt("Digite um numero:"));
+//var n2 = parseInt(prompt("Digite outro numero:"));
+//var n3 = parseInt(prompt("Digite outro numero:"));
+//var media = (n1+ n2 + n3) / 3;
+
+//document.write(`A média desses números é: ${media} !`);
+
+//document.write('<br>');
+
+//var peso = parseFloat(prompt("Qual é o seu peso?"));
+//var altura = parseFloat(prompt("Qual é a sua altura?"));
+
+//var imc = peso / (Math.pow(altura,2));
+//document.write(" O valor do seu IMC é: " +imc.toFixed(2));
+
+
+document.write('<br>');
+
+function pL(){
+document.write("<br>");
+}
+
+
+function calculapontos(vitorias,empates){
+return (vitorias * 3) + empates;
+}
+
+
+var corvitorias = parseInt(prompt("Quantos jogos o Corinthians venceu?"));
+
+var corempates = parseInt(prompt("Quantos jogos o Corinthians empatou?"));
+
+var corpontos = calculapontos(corvitorias, corempates);
+
+
+var palvitorias = parseInt(prompt("Quantos jogos o Palmeiras venceu?"));
+
+var palempates = parseInt(prompt("Quantos jogos o Palmeiras empatou?"));
+
+var palpontos = calculapontos(palvitorias, palempates);
+
+
+
+document.write("<h1> Classificação dos times</h1>");
+
+pL();
+
+
+if(corpontos > palpontos)
+{
+document.write(" 1º Lugar - Corinthians - pontos " + corpontos);
+
+document.write(" 2° Lugar - Palmeiras - pontos " + palpontos);
+
+} 
+else if(palpontos > corpontos)
+{
+document.write(" 1º Lugar - Palmeiras - pontos " + palpontos);
+
+document.write(" 2º Lugar - Corinthians - pontos " + corpontos);
+
+} 
+else{
+
+document.write(" 1º Lugar - Corinthians - pontos " + corpontos);
+
+document.write(" 1º Lugar - Palmeiras - pontos " + palpontos);
+
+}
+
+</script>
+</body>
+</html>

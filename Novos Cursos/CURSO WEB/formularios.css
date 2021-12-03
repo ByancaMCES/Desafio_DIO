@@ -1,0 +1,38 @@
+*{
+       margin:0;
+       padding:0;
+       border:0;
+}
+body{
+         font-family:verdana;
+         color:#666;
+}
+form{
+         position:relative;
+         width:800px;
+         height:auto;
+         margin:auto;
+         background-color:#ccc;
+}
+fieldset{
+         border:10px double #666;
+         padding:10px;
+}
+legend{
+         font-size:25px;
+         color:#333;
+}
+input, textarea{
+         background-color:#666;
+         color:#fff;       
+         border:2px solid #fff;
+}  
+.botao{
+         border: 3px outset #fff;
+         padding:10px;
+}
+.botao:hover{
+         border-style: inset;
+         padding:10px;
+}
+         

@@ -1,0 +1,395 @@
+/* CSS reset */
+
+*{
+      border:0;
+
+      margin:0;
+
+      padding:0;
+
+}
+
+body{
+      text-align:center;
+
+      font-family:tahoma;
+
+      color:#FFF;
+
+      font-size:40px;
+
+}
+
+
+main{
+
+      position:relative;
+
+      width:90%;
+
+      height:auto;
+
+      background-color:#CCC;
+
+      margin:auto;
+
+}
+
+
+
+header{
+
+      position:relative;
+
+      width:100%;
+
+      height:auto;
+
+      background-color:#000;
+
+      padding-top:30px;
+
+      padding-bottom:30px;
+
+}
+
+
+#menu_acima{
+
+      position:relative;
+
+      width:100%;
+
+      height:40px;
+
+      background-color:#00a;
+
+      text-align:center;
+
+      padding-bottom:10px;
+}
+
+
+#menu_lateral{
+      position:relative;
+
+      width:20%;
+
+      height:450px;
+
+      background-color:#fff;
+      float:left;
+
+      
+}
+section{
+
+      position:relative;
+
+      width:60%;
+
+      height:450px;
+
+      background-color:#fff;
+
+      float:left;
+
+}
+
+section header{
+
+      position:relative;
+
+      width:95%;
+
+      height:auto;
+
+      background-color:#FFF;
+
+      padding-top:5px;
+
+      padding-bottom:5px;
+
+      margin:auto;
+
+      color:#000;
+
+      font-size:25px;
+}
+
+
+p{
+      position:relative;
+
+      width:95%;
+
+      height:120px;
+
+      background-color:#CCFFFF;
+
+      margin:auto;
+
+      margin-top:10px;
+
+      font-size:15px;
+
+      color:#000;
+
+      text-align:justify;
+
+}
+
+
+#menu_acima a{
+      width:16.66%;
+      height:40px;
+      text-align:center;
+      padding-top:8px;
+      color:#fff;
+      font-size:20px;
+      text-decoration: none; 
+      background-color:#00a;
+      float:left;
+}
+#menu_acima a:hover{
+      color:#00a;
+      background-color:#fff;
+      transition:2s all;
+}
+
+
+#menu_lateral a{
+
+      width:100%;
+
+      text-align:left;
+
+      font-size:15px;
+
+      text-decoration:none;
+
+      background-color:#999;
+
+      color:#fff;
+
+      padding: 10px;
+
+      border-bottom:1px solid #bbb;
+
+      display:block;
+
+}
+
+#menu_lateral a:hover{
+
+      background-color:#000;
+
+      border-color:#F00;
+
+}
+
+#meio{
+
+      position:relative;
+
+      width:60%;
+
+      height:450px;
+
+ 
+      float:left;
+}
+
+
+
+
+#rodape{
+
+      position:relative;
+
+      width:100%;
+
+      height:40px;
+
+      background-color:#000;
+
+      clear:left;
+
+      text-align:center;
+
+      color:#FFF;
+
+      font-size:30px;
+
+      padding-top:10px;
+
+}
+
+
+#titulo2{
+
+      position:relative;
+
+      width:95%;
+
+      margin:auto;
+
+      background-color:#FFF;
+
+      height:40px;
+
+      text-align:center;
+
+      font-size:20px;
+
+      padding-top:10px;
+
+}
+
+
+#imagem{
+
+      position:relative;
+
+      width:95%;
+
+      margin:auto;
+
+      height:160px;
+
+      background-image:url(imagens/tela.jpg);
+
+      background-size:100%;      
+      margin-top:10px;
+background-repeat: round;
+
+}
+
+
+
+#texto{
+
+      position:relative;
+
+      width:93%;
+
+      margin:auto;
+
+      background-color:#CFF;
+
+      height:80px;
+
+      text-align:justify;
+
+      font-size:12px;
+
+      padding:5px;
+
+      margin-top:10px;
+
+}
+
+
+#figuras{
+
+      position:relative;
+
+      width:95%;
+
+      margin:auto;
+
+ 
+      height:auto;
+
+      display:flex;
+
+      flex-direction:row;
+
+      justify-content:space-between;
+
+      margin-top:10px;
+
+
+
+}
+
+#figuras div{
+
+      width:30%;
+
+      height:100px;
+
+      background-color:#666;
+
+background-repeat: round;
+
+}
+
+
+#fig1{
+
+      background-image:url(imagens/2.jpg);
+      
+
+      background-size:100%;
+      
+}
+
+#fig2{
+
+      background-image:url(imagens/1.jpeg);      
+
+      background-size:100%;
+}
+
+#fig3{
+
+      background-image:url(imagens/3.jpg);
+
+      
+background-size:100%;
+}
+
+aside{
+      position:relative;
+
+      width:20%;
+
+      height:450px;
+
+      background-color:#cc99cc;
+
+      float:left;
+
+}
+
+
+
+
+/*Visualização tablet*/
+@media only screen and (min-width:481px){
+@media only screen and (max-width:720px)
+{
+
+#menu_lateral, aside, aside img{
+             display:none;
+             }
+#meio{
+        width:100%;
+        }
+
+#menu_acima a{
+           width:33.33%;
+         }
+
+#figuras{
+
+      height:auto;
+
+      
+}
+
+
+
+}
+}

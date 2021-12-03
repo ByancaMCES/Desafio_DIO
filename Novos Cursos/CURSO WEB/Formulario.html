@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+           <title> Testando tags de Formulários </title>
+
+
+<meta charset="iso-8859-1" >
+<link rel="stylesheet" href="formularios.css" type="text/css">
+
+</head>
+
+
+<body>
+
+ <form action=" " name="form"> 
+   <fieldset>       
+          <legend> Cadastro </legend>
+               <label> Entre com seu nome </label>
+               <input type="text" name="nome" maxlength="50" size="50"> 
+<br><br>
+               <label> Entre com seu e-mail: </label>
+               <input type="email" name="mail" maxlength="30" size="30"> 
+<br><br>
+               <label> Entre com sua senha </label>
+               <input type="password" name="senha" size="10"> 
+<br><br>
+                <label> Vc utiliza nosso site frequentemente? </label>
+                <input type="radio" name="resp" value="sim"> Sim
+                <input type="radio" name="resp" value="nao"> Não 
+<br><br>
+                 <label> Qual Browser você costuma usar para acesso ao site? </label>
+                 <input type="checkbox" name="opcao1" value="fire"> Firefox
+                 <input type="checkbox" name="opcao2" value="chro"> Chrome
+                 <input type="checkbox" name="opcao3" value="IE"> Internet Explorer
+                 <input type="checkbox" name="opcao4" value="safa"> Safari
+                 <input type="checkbox" name="opcao5" value="oper"> Opera 
+<br><br>
+                <label> Selecione uma area de atuação </label>
+                <select name="opcao">
+                    <option> Marketing </option>
+                    <option> Comercial </option>
+                    <option> Vendas </option>
+                    <option> WEB </option>
+                    <option> Administração </option>
+                 </select>
+<br><br>
+               <label> Deixe aqui seu comentário </label> <br>
+               <textarea cols="100" rows="10" placeholder="Comente aqui:" > </textarea>
+<br><br>
+                 <label> Entre com seu CPF </label>
+                 <input type="text" required placeholder="Digite o CPF aqui..."> 
+<br><br>
+                 <label> Entre com um numero: </label>
+                 <input type="number" min="10" max="20"> 
+<br><br>
+                 <label> Selecione uma data </label>
+                 <input type="date">
+<br><br>
+                <progress value="50" max="100"> 70% </progress> 
+<br><br>
+                <meter min="0" max="100" low="40" high="90" optimum="100" value="91"></meter>
+<br><br>
+                <input type="search" url="#"> 
+<br><br>
+                 <label> Escolha a sua cor </label>
+                 <input type="color">
+<br><br>
+              
+               <input type="submit" value="Enviar Dados" class="botao">
+               <input type="reset" value="Limpar Dados" class="botao">
+
+
+   </fieldset>
+ </form>
+
+</body>
+
+</html>

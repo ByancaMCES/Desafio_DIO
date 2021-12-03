@@ -1,0 +1,237 @@
+<html>
+<head>
+<title> Testando Folha de Estilo - CSS </title>
+<style>
+
+h1,h2,h3{
+         width:800px;
+         background-color:#0f0;
+         color:#009;
+         font-size:30px
+
+        }
+h2{
+        background-color:#ff0;
+        margin:auto;
+
+        }
+h4,h5,h6
+        { width:600px;
+          font-family:Tahoma;
+          text-align: center;
+          border:5px;   /*Traz borda e espessura dela*/
+          border-color:#f00; /*cor da borda*/
+          border-style: solid; 
+  /*estilos da borda, temos: solid,dotted,dashed,groove,inset,outset,double*/
+          
+        }
+h4{ 
+   text-align:left;
+   margin:50px;/*espaçamento para fora da área, para os 4 lados*/
+   padding:50px;/*espaçamento dentro da área, para os 4 lados*/
+
+   }
+
+h5{
+     margin-left:200px;
+     margin-right:10px;
+     margin-top: 0px;
+     margin-bottom:0px;
+     border: 3px dotted #00e; 
+ /*serve pra colocar todas atribuições da borda*/
+}
+
+h6{ 
+    margin:10px 0px 0px 10px; /*topo,lado direito,embaixo,lado esquerdo(sentido horário)*/
+    border-left:10px double #000;
+    border-right:10px outset #FD0;
+    border-top:2px dashed #000;
+    border-bottom:3px dotted #900;
+}
+
+a{ 
+   font-size:20px;
+   font-family:Tahoma;
+   background-color:#FF9;
+   color:#000;
+   text-decoration:none;
+   margin:5px;
+   width:150px;
+   display:block;
+  
+}
+
+
+a:hover{ 
+         color:#00f;
+         background-color:#000;
+width:200px;
+         transition:2s all}
+
+a:visited{ color:#f00;
+          }
+
+
+a:active{ 
+          color:#0f0;
+          }
+
+table{ 
+       width:300px;
+       height:300px;
+       background-color:#7fffda;
+       margin:auto;
+       text-align:center;
+       border-color:#009;
+       color:#006;
+       border:2px;
+       border-style:solid;
+       border-color:#009;
+       }
+td,th{
+       border:2px;
+       border-style:solid;
+       border-color:#009;
+       }
+
+
+
+
+</style>
+
+</head>
+<body>
+
+
+<h1> Testando estilos h1</h1>
+<h2> Testando estilos h2</h2>
+<h3> Testando estilos h3</h3>
+<h4> Testando estilos h4</h4>
+<h5> Testando estilos h5</h5>
+<h6> Testando estilos h6</h6>
+<br><br>
+<a href="#"> Hyperlink 1 </a>
+<a href="#"> Hyperlink 2 </a>
+<a href="#"> Hyperlink 3 </a>
+<a href="#"> Hyperlink 4 </a>
+<a href="#"> Hyperlink 5 </a>
+<a href="#"> Hyperlink 6 </a>
+<br><br>
+
+<table> 
+
+<tr>
+  <th> Aluno      </th>
+  <th> Periodo    </th>
+  <th> Matricula  </th>
+</tr>
+
+<tr>
+  <td> João     </td>
+  <td> Manhã    </td>
+  <td> 88765    </td>
+</tr>
+
+<tr>
+  <td> José     </td>
+  <td> Tarde    </td>
+  <td> 67548    </td>
+</tr>
+
+<tr>
+  <td> Joana    </td>
+  <td> Noite    </td>
+  <td> 23415    </td>
+</tr>
+
+</table>
+
+<br><br>
+
+<table>
+
+<tr>
+<th> Dado 1</th>
+<th> Dado 2 </th>
+</tr>
+
+<tr>
+<th> Dado 3</th>
+<th> Dado 4 </th>
+</tr>
+</table>
+
+<ol type="1">
+             <li>   HTML       </li>
+             <li>   css        </li>
+             <li>   JavaScript </li>
+             <li>   Jquery     </li>
+             <li>   XML        </li>
+
+</ol>
+<ol type="I">
+             <li>   HTML       </li>
+             <li>   css        </li>
+             <li>   JavaScript </li>
+             <li>   Jquery     </li>
+             <li>   XML        </li>
+
+</ol>
+
+<ol type="A">
+             <li>   HTML       </li>
+             <li>   css        </li>
+             <li>   JavaScript </li>
+             <li>   Jquery     </li>
+             <li>   XML        </li>
+
+</ol>
+
+<ul type="disc">
+             <li>   HTML       </li>
+             <li>   css        </li>
+             <li>   JavaScript </li>
+             <li>   Jquery     </li>
+             <li>   XML        </li>
+
+</ul>
+
+<ul type="square">
+             <li>   HTML       </li>
+             <li>   css        </li>
+             <li>   JavaScript </li>
+             <li>   Jquery     </li>
+             <li>   XML        </li>
+
+</ul>
+
+<ul type="circle">
+             <li>   HTML       </li>
+             <li>   css        </li>
+             <li>   JavaScript </li>
+             <li>   Jquery     </li>
+             <li>   XML        </li>
+
+</ul>
+
+<ul style="list-style-type:katakana">
+             <li>   HTML       </li>
+             <li>   css        </li>
+             <li>   JavaScript </li>
+             <li>   Jquery     </li>
+             <li>   XML        </li>
+
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

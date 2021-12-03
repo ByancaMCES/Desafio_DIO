@@ -1,0 +1,96 @@
+.efeito_texto{
+           font-family:verdana;
+           font-weight:bold;
+           font-size:30px;
+           -webkit-text-fill-color:#000;
+           -webkit-text-stroke-color:#F00;
+           -webkit-text-stroke-width:1px;
+}
+.sombra_texto{
+           font-family:verdana;
+           font-weight:bold;
+           font-size:30px;
+           text-shadow:5px 5px 5px #099;
+}
+#box{
+         width:200px;
+         height:200px;
+         border:1px solid;
+         background-color:#DF9;
+         box-shadow:-10px -10px 10px #050;
+         border-radius:20px;
+         padding:10px;
+}
+.colunas{
+           font-family:verdana;
+           font-weight:bold;
+           font-size:12px;
+           -webkit-column-count:3; /*numero de colunas*/
+           -webkit-column-rule:1px solid #666; /*tipo de coluna*/
+           -webkit-column-gap:1.5em; /*espaçamento entre as colunas*/
+           text-align:justify;
+}
+#box2{
+         width:600px;
+         height:500px;
+         border:10px solid;
+         background-image:url(imagens/fundo.jpg);
+         background-size:100%;
+         padding:20px;
+        background-repeat:round;
+}
+#transparente{
+         width:400px;
+         height:300px;
+         margin:auto;
+         margin-top:80px;
+         background-color:rgba(0,155,0,0.3);
+}
+/*RGB=>0,0,0=preto -------255,255,255=branco ;;;;; verde=0,255,0 */
+
+#gradiente1{
+         width:400px;
+         height:200px;
+         background:-webkit-gradient(linear,left top, right top,from(#ffcccc), to(#ff0000));
+        margin:20px;
+}
+#gradiente2{
+         width:400px;
+         height:200px;
+         background:-webkit-gradient(linear,left top, left bottom,from(#ccffcc), to(#00ff00));
+        margin:20px;
+
+}
+#gradiente3{
+         width:400px;
+         height:200px;
+         background:-webkit-gradient(linear,left top, right bottom,from(#ccccff), to(#0000ff));
+        margin:20px;
+
+}
+#gradiente4{
+         width:400px;
+         height:200px;
+         background:-webkit-gradient(radial,50% 50%, 20, 50% 50%, 90, from(#fff), to(#666));
+         margin:20px;
+}
+@-webkit-keyframes pulse{
+from{
+          opacity:0.0;
+          font-size:100%;}
+to {
+      opacity:1.0;
+      font-size:200%;}
+}
+#animacao{
+                 -webkit-animation-name:pulse;
+                 -webkit-animation-duration:2s;
+                 -webkit-animation-iteration-count:infinite;
+                 -webkit-animation-timing-function:easy-in-out;
+                 -webkit-animation-direction:alternate;
+                 font-family:verdana;
+                 font-weight:bold;
+                 color:#F00;
+                 text-align:center;
+
+}

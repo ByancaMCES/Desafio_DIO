@@ -1,0 +1,158 @@
+*{
+            border:0;
+            margin:0;
+            padding:0;
+
+}
+
+main{
+            background-color:#CAE1FF;
+            width:auto;
+            height:1000px;
+}
+
+
+nav a{   margin-left:15px;
+            padding-top:10px;
+            font-size:15px;
+            font-family:Arial;
+            float:left;
+}
+h1{      clear:left;
+           font-weight:normal;
+           font-size:35px;
+           font-family:Calisto MT;
+           margin:10px;
+
+}
+
+a{
+            text-decoration:none;
+
+            color:#000;
+            
+     
+}
+.conectar{
+            border:1px solid #000;
+            padding:10px;
+            margin-left:15px;
+            
+}
+.cadastre{
+          color:#fff;
+          font-weight:bold;
+          background-color:#008b8b;
+          padding:10px;
+          margin-left:15px;
+}
+
+#meio a{
+         margin-left:35px;
+         margin-right:25px;
+         margin-top:0;
+
+}
+#canto a{ 
+         margin-top:10px;
+}
+
+#pote_grande{
+             position:absolute;
+             top:250px;
+             left:500px;
+             border:1px solid #000;
+             border-radius:10px;
+             background-color:#ffe4c4;
+             width:400px;
+             height:250px;
+             padding-top:00px;
+             text-align:center;
+             color:#ee8262;
+             font-weight:bold;
+}
+#pote_grande img{
+            padding-top:20px;
+            margin-left:-150px;
+
+}
+
+#pote{
+             position:absolute;
+             top:330px;
+             left:750px;
+             border:1px solid #000;
+             background-color:#fff;
+             width:200px;
+             height:200px;
+             padding:8px;
+             text-align:left;
+            color:#000;
+            border-radius:10px;
+            box-shadow:10px 15px 15px #000;
+            font-family:Tempus Sans ITC;
+            font-weight:bold;
+
+}
+#pote img{
+             margin-left:0px;
+             margin-top:20px;
+             margin-bottom:10px;
+}
+
+hr {
+            border-top: 1px solid #000;
+            width:auto;
+            text-align:left;
+
+
+}
+
+#central{
+             position:absolute;
+             top:200px;
+             left:150px;
+             width:350px;
+             height:800px;
+             
+}
+
+p{
+             font-size:15px;
+             font-family:Tahoma;
+             margin:10px;
+}
+.saiba{
+             margin:15px;
+             padding:10px;
+             color:#fff;
+             font-weight:bold;
+             background-color:#008b8b;
+         
+}
+.continue{
+             border-radius:5px;
+             padding:5px;
+             color:#fff;
+             font-weight:bold;
+             background-color:#008b8b;
+             margin:17px;
+             font-family:Arial;
+             font-size:14px;
+}
+#bordas{                 
+             position:relative;
+             width:auto;
+             height:20px;
+             margin:1px;
+             display:flex;
+             flex-direction:row; /*column ou row*/
+             align-items: flex-end; /*baseline, center, flex-end, flex-start, strecht, unset, initial, inherit*/
+             justify-content:space-between;/*center, space-around, space-between, space-evenly*/
+                
+}
+#bordas img{
+            margin-left:0px;
+             width:20px;
+             height:15px;
+}

@@ -1,0 +1,136 @@
+hr{
+margin:50px 0;
+color:#eee;
+}
+
+ul li.active{ 
+_visibility: hidden; /*IE6 rule*/
+}
+
+ul.gelbuttonmenu{
+position:relative;
+padding: 0;
+margin: 0;
+margin-bottom:10px;
+text-align: center; 
+}
+
+ul.gelbuttonmenu li{
+display: inline-block;
+margin-bottom: 10px;
+}
+
+ul.gelbuttonmenu li a{
+color: black;
+font-weight:bold;
+padding: 10px;
+margin-right: 20px; 
+text-decoration: none;
+}
+
+ul.gelbuttonmenu li.active{ 
+position:absolute;
+width:0;
+background:lightblue;
+background:url(imagem/gelbuttonleft3.gif) top left no-repeat, url(imagem/gelbuttonright3.gif) top right no-repeat, url(imagem/gelbuttoncenter3.gif) top center repeat-x;
+}
+
+ul.solidblockmenu{
+margin: 0;
+margin-bottom:1em;
+padding: 0;
+list-style: none;
+position:relative;
+text-align: center; //set value to "left", "center", or "right"*/
+}
+
+ul.solidblockmenu li{
+display: inline-block;
+margin-bottom: 10px;
+}
+
+ul.solidblockmenu li a{
+font: bold 14px Arial, Verdana, sans-serif;
+color: black;
+padding: 8px;
+margin-right: 20px; /*spacing between each menu link*/
+text-decoration: none;
+}
+
+ul.solidblockmenu li.active{ /*style of LI that gets dynamically added to menu to create background effect*/
+position:absolute;
+width:0;
+border:1px solid black;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius:4px;
+-moz-box-shadow: 2px 2px 4px rgba(120,120,120,0.7);
+-webkit-box-shadow: 2px 2px 4px rgba(120,120,120,0.7);
+box-shadow: 2px 2px 4px rgba(120,120,120,0.7);
+background:#d7ed93;
+background: -moz-linear-gradient(top, #d7ed93, #fff);
+background: -webkit-gradient(linear, center top, center bottom, from(#d7ed93), to(#fff));
+background: linear-gradient(top, #d7ed93, #fff);
+}
+
+
+ul.underlinemenu{
+margin: 0;
+margin-bottom:1em;
+padding: 0;
+list-style: none;
+position:relative;
+text-align: center; //set value to "left", "center", or "right"*/
+}
+
+ul.underlinemenu li{
+display: inline-block;
+margin-bottom: 10px;
+}
+
+ul.underlinemenu li a{
+font: bold 14px Arial, Verdana, sans-serif;
+color: black;
+padding: 8px;
+margin-right: 20px; 
+text-decoration: none;
+}
+
+
+ul.underlinemenu li.active{ 
+position:absolute;
+width:0;
+border-bottom:5px solid navy;
+}
+
+ul.framemenu{
+margin: 0;
+margin-bottom:1em;
+padding: 0;
+list-style: none;
+position:relative;
+text-align: center; //set value to "left", "center", or "right"*/
+}
+
+ul.framemenu li{
+display: inline-block;
+margin-bottom: 10px;
+}
+
+ul.framemenu li a{
+font: bold 14px Arial, Verdana, sans-serif;
+color: black;
+padding: 12px 10px 5px 18px;
+margin-right: 10px; 
+text-decoration: none;
+}
+
+
+ul.framemenu li.active{  
+position:absolute;
+width:0;
+border:4px solid orange;
+-moz-box-shadow: 0 0 4px rgba(120,120,120,0.7);
+-webkit-box-shadow: 0 0 4px rgba(120,120,120,0.7);
+box-shadow: 0 0 4px rgba(120,120,120,0.7);
+} 
