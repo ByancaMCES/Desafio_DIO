@@ -1,7 +1,10 @@
 # Primeiro Desafio Dio GitHub 🏁
 ## Listando pontos
+*Testando*
+_Ok_
 
-[Meu Instagram](https://www.instagram.com/byanca_ennes/)
+
+[Perfil Linkedin](https://www.linkedin.com/in/byanca-martiniano-cardoso-a79476227/)
 
 
 
