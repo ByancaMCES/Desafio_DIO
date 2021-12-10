@@ -14,12 +14,6 @@ We will create an application using the github public api.
 - Search repo by username
 - Search starred by username
 
-### Preview
-
-Print of the finished project.
-
-![plot](./image/snapshot-1.png)
-
 ### Libraries used
 
 - [axios](https://www.npmjs.com/package/axios)
